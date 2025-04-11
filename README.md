@@ -1,4 +1,4 @@
-# Project Instructions Generator
+# Cursor AI Agent Project Instructions Generator
 
 A meta-project for generating comprehensive instructions for all future projects using Cursor AI.
 
