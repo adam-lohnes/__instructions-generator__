@@ -45,16 +45,11 @@ project_templates/                 # Template examples for different project typ
 
 ## Usage
 
-1. Create a new empty project folder
-2. Copy the appropriate rule from `.cursor/rules/` to your project
-3. Use Cursor AI to generate detailed project instructions based on the rule
-4. Follow the generated instructions to build your project systematically
-
-## Core Rules
-
 ### Project Instruction Generator
 
-This rule helps create comprehensive project plans and instructions tailored to your specific project needs. It guides you through:
+This rule helps create comprehensive project plans and instructions tailored to your specific project needs. Simply open up the Agent chat in this project folder, describe a project idea you have in as much detail as possible, and a starter prompt/set of instructions will be created for that project.
+
+The instructions will be used to guide Cursor's AI Agent through:
 
 - Initial project assessment and planning
 - Creating structured project documentation
@@ -62,6 +57,14 @@ This rule helps create comprehensive project plans and instructions tailored to 
 - Establishing consistent workflows
 - Tracking progress with journal entries
 - Quality control and delivery processes
+
+### Begin your project:
+
+1. Create a new empty project folder
+2. Copy the appropriate set of generated instructions from this project to your new project folder
+3. Add the instructions file to Agent chat
+4. Tell Cursor AI to follow the instructions
+5. Watch in wonder as the Agent builds your project systematically
 
 ### Cursor Rule Creator
 
@@ -72,21 +75,7 @@ This rule helps you create new Cursor rules for specialized project types. It pr
 - Organization and maintenance
 - Best practices for effective rules
 
-## Creating New Rules
-
-To create a new specialized rule:
-
-1. Start with a markdown (`.md`) file in the workspace root
-2. Develop and refine the content
-3. Test the rule by reviewing its effectiveness
-4. Use the terminal to convert to a `.mdc` file and place in `.cursor/rules/`:
-   ```bash
-   cp your_rule.md .cursor/rules/your_rule.mdc
-   ```
-5. **IMPORTANT**: Place all rules directly in the `.cursor/rules/` directory without subdirectories
-6. Use clear, descriptive filenames, with prefixes if helpful (e.g., `tech_web_app.mdc`)
-
-## Extending This Project
+### Extending This Project
 
 To add support for new project types:
 

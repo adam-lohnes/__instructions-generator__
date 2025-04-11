@@ -129,17 +129,3 @@ project_templates/
     ├── learning/
     └── productivity/
 ```
-
-## Creating Cursor Rules
-
-When creating a Cursor rule from this template:
-
-1. Start with this template as a markdown (`.md`) file
-2. Customize it for the specific project type or workflow
-3. Review and refine the content
-4. Use the terminal to convert it to a `.mdc` file and place it in the `.cursor/rules/` directory:
-   ```bash
-   cp your_project_template.md .cursor/rules/your_project_template.mdc
-   ```
-5. **IMPORTANT**: Place all rules directly in the `.cursor/rules/` directory without subdirectories
-6. Use clear, descriptive filenames with prefixes if helpful for organization (e.g., `tech_web_app.mdc`, `creative_writing.mdc`) 
