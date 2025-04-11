@@ -6,7 +6,7 @@ alwaysApply: true
 # Project Instruction Generator
 
 ## Purpose
-This template serves as a comprehensive guide for generating detailed project instructions for any type of project, whether technical, creative, business, or personal. It ensures a systematic approach to project planning, setup, and execution, adaptable to your specific needs.
+This template serves as a comprehensive guide for generating detailed project instructions for any type of project, whether technical, creative, business, or personal. It ensures a systematic approach to project planning, setup, and execution, adaptable to your specific needs. Please make sure to output the final version as a markdown file into the organized folder structure.
 
 ## Project Instruction Template Structure
 
