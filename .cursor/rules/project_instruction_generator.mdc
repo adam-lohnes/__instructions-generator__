@@ -68,6 +68,8 @@ This template serves as a comprehensive guide for generating detailed project in
 - **Agent Workflow**:
   - Update documentation after completing each milestone
   - Track changes appropriately (version control for code, revision history for docs)
+    - initializing the project as a git repository is always a good idea
+    - commit granular updates often
   - Create branches/variations for exploring alternatives
   - Update progress journal regularly
   - Adhere to project plan while remaining adaptable
